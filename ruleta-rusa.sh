@@ -9,9 +9,9 @@ get_term_size() {
 terminal_tamano = get_term_size
 function crtl-c(){
     echo "Si te cagas no tienes más que admitirlo. Dime, ¿te cagas?"
-    read ${cago}
+    read cago
     case ${cago} in
-        si|Si|sí|Sí) exit 0
+        si|Si|sí|Sí|me cago|Me cago) exit 0
         ;;
     esac
 }
@@ -28,10 +28,10 @@ trap crtl-c INT
 trap tamaño SIGWINCH
 
 echo "Bienvenido a la ruleta rusa de linux."
-echo "Se elegirá un numero del 0 al 10, si el numero es 0 se borraran todos los datos." 
+echo "Se elegirá un numero del 0 al 10, si el número es 0 se borraran todos los datos." 
 echo "si el numero es diferente de 0, te libras."
-echo "Si quieres plantarte escribe me cago y seras liberado, pero la humillación te la llevas igual."
-echo " Buena suerte"
+echo "Si quieres plantarte, escribe me cago y seras liberado, pero la humillación te la llevas igual."
+echo "Buena suerte"
 if [ $[ $RANDOM % 10 ] == 0 ];then
  echo "Salió 0"
  echo "Tu sistema ${OSTYPE} se va a la mierda"
