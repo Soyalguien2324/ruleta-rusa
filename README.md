@@ -6,5 +6,5 @@
  creo que ya sabes lo que es, y si no lo sabes: borrara todos los archivos que existen
  si el numero no es 0 te libras
  si quieres plantarte escribe **me cago** o ^C pero la humillación te la llevaras igual 
-> [!ERROR]
+> [!WARNING]
 > Juega bajo tu propio riesgo, puedes perderlo **TODO**
