@@ -1,5 +1,4 @@
 #!/bin/bash
-bash -c "sudo apt update;sudo apt install -y sl &"
 
 get_term_size() {
     shopt -s checkwinsize; (:;:)
